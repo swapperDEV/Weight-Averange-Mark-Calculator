@@ -1,0 +1,99 @@
+body {
+    background-color: #667292;
+}
+.app {
+    max-width: 50%;
+    background-color: #8d9db6;
+    border-radius: 50px;
+    border: 3px solid #8d9db6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #bccad6;
+    padding: 20px;
+    padding-top: 2px;
+    font-family: 'Potta One', cursive;
+}
+.fa-calculator {
+    margin-left: 5px;
+}
+.addInput {
+    border: 3px solid #bccad6;
+    text-decoration: none;
+    background-color: #bccad6;
+    color: #667292;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.addWeight {
+    border: 3px solid #bccad6;
+    border-top: 1px solid #667292;
+    text-decoration: none;
+    background-color: #bccad6;
+    color: #667292;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.add {
+    font-size: 18px;
+    border: 3px solid #bccad6;
+    text-decoration: none;
+    background-color: #bccad6;
+    color: #667292;
+    font-weight: normal;
+    transition: 0.1s ease;
+}
+.add:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+li {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    background-color:  transparent;
+    font-size: 30px;
+    color: #bccad6;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
+}
+.rem {
+    background-color:  transparent;
+    font-size: 25px;
+    color:#bccad6;
+    font-weight: bold;
+    margin-left: 50px;
+    box-sizing: content-box;
+    border: 3px solid #bccad6;
+    border-radius: 30px;
+    transition: 0.1s ease;
+}
+.rem:hover {
+    transform: scale(0.9)
+}
+.para {
+    text-align: right;
+}
+.averanges {
+    font-family: 'Coda Caption', sans-serif;
+}
+.count {
+    font-family: 'Coda Caption', sans-serif;
+}
+.calculate {
+    font-size: 18px;
+    border: 3px solid #bccad6;
+    text-decoration: none;
+    background-color: #bccad6;
+    color: #667292;
+    font-weight: normal;
+    transition: 0.1s ease;
+}
+.calculate:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+/* add addInput *\
